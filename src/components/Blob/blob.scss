@@ -1,0 +1,41 @@
+.blob{
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: -394px;
+    top: 232px;
+    background-color: #7A7FED;
+    border-radius: 20rem;
+}
+.socials{
+    top: 21rem;
+    position: absolute;
+    display: grid;
+    margin: 1rem;
+    svg{
+        margin: 1rem 0rem;
+        fill: #fff;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .blob{
+        display: none;
+
+    }
+   .socials{
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    top: inherit;
+    margin: 1rem;
+    background-color: #fff;
+    svg{
+        fill: #7A7FED;
+        margin: 1rem 1.6rem;
+
+    }
+   }
+    }
+    
+  

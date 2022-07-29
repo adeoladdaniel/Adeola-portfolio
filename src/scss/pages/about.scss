@@ -1,0 +1,166 @@
+.header_section_about{
+    // height: 100%;
+    // background: #e6eaee33;
+   
+    display: flex;
+
+
+    img{
+        margin: 0rem 0rem 2rem 10rem;
+        display: flex;
+        margin-top: 8rem;
+        // width: 32%;
+        position: initial;
+    }
+}
+
+.text_section_about{
+    padding: 5rem 2rem;
+    h2{
+        font-size: 36px;
+        font-weight: 100;
+        margin-bottom: 2rem;
+    }
+    h1{
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    p{
+        font-weight: 300;
+        padding: 1rem 0rem;
+    }
+    b{
+        font-weight: 900;
+        color: #7A7FED;
+    }
+    span{
+        font-weight: 200;
+        line-height: 33px;
+    }
+}
+
+.about_card{
+    background: white;
+    height: 190px;
+    width: 200px;
+    padding: 3rem 26px;
+    box-shadow: 0px 0px 41.6667px rgb(0 0 0 / 4%);
+    border-radius: 10px;
+    margin: 0rem 1rem;
+    transition: ease-in-out 500ms;
+
+    svg{
+        stroke:#666666;
+    }
+
+    p{
+        font-weight: 600;
+        font-size: 14px;
+
+    }
+    span{
+        // margin-top: 100px
+        color: #fff;
+        font-weight: 200;
+        font-size: 14px;
+    }
+}
+.about_card_section{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+
+
+    
+}
+.about_card:hover{
+    background: #7A7FED !important;
+    color: white;
+
+    svg{
+        stroke: #fff;
+
+    }
+}
+.resume{
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    background: #7A7FED;
+    border-radius: 5px;
+    position: absolute;
+    right: 100px;
+    margin-top: 3rem;
+    font-weight: 700;
+font-size: 13px;
+}
+.tool_section{
+    h4{
+        padding: 1rem 15rem;
+        font-weight: 900;
+        font-size: 33px;
+    }
+
+}
+.tool_images{
+    text-align: center;
+    
+    img{
+        padding: 1rem;
+        // transform: scaleX(1);
+        transition: ease-in-out 1s;
+
+    }
+}
+
+.tool_images img:hover{
+    width:10%;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .header_section_about{
+      img{
+          display: none;
+      }
+
+
+    }
+    .about_card_section {
+        display: grid;
+        /* margin: 0rem 3rem; */
+    }
+    .about_card {
+        background: white;
+        height: 190px;
+        width: 260px;
+        padding: 3rem 26px;
+        box-shadow: 0px 0px 41.6667px rgb(0 0 0 / 4%);
+        border-radius: 10px;
+        margin: 1rem 0rem;
+        transition: ease-in-out 500ms;
+    }
+    .about_card span {
+        color: #7f84ee;
+        font-weight: 200;
+        font-size: 14px;
+    }
+    .resume {
+        border: none;
+        padding: 0.5rem;
+        color: white;
+        background: #7A7FED;
+        border-radius: 5px;
+        position: absolute;
+        right: 10px;
+        margin-top: 3rem;
+        font-weight: 700;
+        font-size: 13px;
+        top: 112px;
+    }
+    .tool_section h4, .tool_section .h4 {
+        padding: 1rem 2rem;
+        font-weight: 900;
+        font-size: 33px;
+    }
+    }
