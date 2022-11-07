@@ -43,7 +43,7 @@
     background: white;
     height: 190px;
     width: 200px;
-    padding: 3rem 26px;
+    padding: 3rem 15px;
     box-shadow: 0px 0px 41.6667px rgb(0 0 0 / 4%);
     border-radius: 10px;
     margin: 0rem 1rem;
@@ -63,6 +63,7 @@
         color: #fff;
         font-weight: 200;
         font-size: 14px;
+        margin: 0rem 0rem 2rem -18px;
     }
 }
 .about_card_section{
@@ -108,7 +109,9 @@ font-size: 13px;
     img{
         padding: 1rem;
         // transform: scaleX(1);
-        transition: ease-in-out 1s;
+        transition: ease-in-out 500ms; 
+        // transform: translate(-50%, -50%);
+
 
     }
 }
@@ -125,6 +128,15 @@ font-size: 13px;
       }
 
 
+    }
+    .about_card:hover {
+        background: none !important;
+        color: black;
+
+    svg{
+        stroke: black;
+
+    }
     }
     .about_card_section {
         display: grid;

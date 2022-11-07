@@ -1,6 +1,7 @@
 // import Seo from "../shared/Seo";
 import Navbar from "../components/Navbar"
 import Blob from "../components/Blob"
+import ContactForm from "../components/fofrm"
 
 // import { Container } from "react-bootstrap";
 
@@ -22,8 +23,9 @@ function Contact(){
 <Blob/>
 
 
+
                 <div className="signup__page"> 
-                <div className="header_section_about">
+                <div className="header_section_contact">
 
 
                   
@@ -34,14 +36,14 @@ function Contact(){
     <h1>Contact me</h1>
 
     <div className="input_section">
-        <input type="text" placeholder="Name" /> <br/>
-        <input type="email" placeholder="Email" /><br/>
-        <input className="messager" type="text" placeholder="Message" /><br/>
+        {/* <input type="text" placeholder="Name" /> <br/> */}
+        {/* <input type="email" placeholder="Email" /><br/> */}
+        {/* <input className="messager" type="text" placeholder="Message" /><br/> */}
+<ContactForm />
+
 
     </div>
-    <button className="contact_but">
-        Send Message <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 12h11m0 0-4.588-4m4.588 4-4.588 4" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </button>
+  
 </div>
 
 

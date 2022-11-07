@@ -28,11 +28,12 @@
     position: fixed;
     display: flex;
     top: inherit;
-    margin: 1rem;
+    margin: 0rem;
     background-color: #fff;
+    z-index: 2;
     svg{
         fill: #7A7FED;
-        margin: 1rem 1.6rem;
+        margin: 0rem 0.6rem;
 
     }
    }
